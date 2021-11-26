@@ -10,6 +10,6 @@ async function apiRequest(){
         document.querySelector('h2').innerText = data.birthName
     }catch(error){
         console.log(error)
-        //new
+        
     }
 }
